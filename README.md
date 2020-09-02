@@ -27,3 +27,12 @@ If you want to follow along or dive deeper into AWS API Gateway after finishing 
 Understanding the costs of API Gateway is also crucial. What you see in this course will be within the free tier but once you start playing around with it on your own or you're using it for production, you may encounter costs.
 
 Check the following link to understand what's free and what's not: https://aws.amazon.com/api-gateway/pricing/
+
+# Understanding AWS Permissions (IAM)
+Feel free to skip this article if you're already aware about how AWS Security Model and IAM (Identity and Access Management) works.
+
+I strongly recommend watching this video to get a brief overview: https://youtu.be/9CKsX6MOPDQ
+
+Besides that, have a look at the following article to get an introduction: http://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html
+
+By default, AWS doesn't give any permissions to any of your services. That means, that no service may interact with other services.
